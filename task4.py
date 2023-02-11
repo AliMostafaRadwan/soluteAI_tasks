@@ -75,6 +75,7 @@ def enhance_fabric2(img):
         for i in contours:
             area.append(cv2.contourArea(i))
         print('The max area is: ', max(area))
+        st.write('The max area is: ', max(area))
 
         for i in contours:
             if cv2.contourArea(i) ==  max(area):
