@@ -1,0 +1,1 @@
+# soluteAI_tasks
